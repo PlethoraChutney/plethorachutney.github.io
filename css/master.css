@@ -48,6 +48,11 @@ header a {
   text-decoration: none;
 }
 
+header a:hover {
+  color: #555;
+  border-bottom: 4px solid #555;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -68,6 +73,22 @@ footer ul li {
 footer a {
   color: #999;
   text-decoration: none;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer a.twitter-link:hover {
+  color: #1da1f2;
+}
+
+footer a.github-link:hover {
+  color: #24292e;
+}
+
+footer a.orcid-link:hover {
+  color: #a6ce39;
 }
 
 .caption {
