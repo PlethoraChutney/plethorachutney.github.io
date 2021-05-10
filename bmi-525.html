@@ -9,7 +9,7 @@
   <body>
     <header>
       <ul>
-        <li class = "current">
+        <li>
           <a href="/">
             <i class="fas fa-home"></i>
             Home
@@ -27,44 +27,35 @@
             Union
           </a>
         </li>
+        <li class="current">
+          <a href="/bmi-525">
+            <i class="fas fa-chart-area"></i>
+              Data Vis
+          </a>
+        </li>
       </ul>
-      <li>
-        <a href="/bmi-525">
-          <i class="fas fa-chart-area"></i>
-            Data Vis
-        </a>
-      </li>
     </header>
-
-    <h1>Welcome!</h1>
-    <img class="center" src="images/rich_main_smaller.jpg" alt="Rich wearing yellow, smiling down at a camera against a grey sky.">
-    <p class="caption">This is what I look like when I'm drinking a beer on the
-      alvord desert!</p>
-
-    <div class="page_intro">
-      <p>
-        I'm a graduate student at OHSU, in the
-        <a href="https://www.ohsu.edu/xd/research/centers-institutes/vollum/faculty/baconguislab.cfm">Baconguis lab</a>.
-        We work on structural biochemistry, specifically cryoEM of ion channels.
-        Check out our
-        <a href="https://elifesciences.org/articles/39340">first</a>
-        and
-        <a href="https://elifesciences.org/articles/59038">second</a>
-        papers on the structure and function of ENaC!
-      </p>
-
-      <p>
-        In addition to protein biochemistry, I enjoy writing scripts to help make
-        repeat analysis easier. Probably my biggest accomplishments are my
-        chromatography analysis scripts, which incorporate collating and plotting
-        data from Waters and AKTA instruments with a web interface that you can
-        access from anywhere. I got tired of copying files and making .csvs
-        manually! Take a look <a href="https://github.com/PlethoraChutney/Appia">here</a>!
-        I also enjoy reading, cycling, backpacking, and cooking. My goal this
-        year is to cook my way through a new cookbook!
-      </p>
-
-    </div>
+    <h1>BMI 525 - Data Visualization</h1>
+    <p>
+      For my data visualization class, I made a visualization of the
+      gapminder data on life expectancy. For each country, I converted
+      the trajectory of their life expectancy over time into a single line,
+      then marked the oldest and most-recent data points for each country.
+      Each of those data points points either up or down to indicate whether
+      it is above or below the median life expectancy for that country's
+      continent in that year. 
+    </p>
+    <p>
+      I like this visualization because it lets you see a lot all at once.
+      Sorting by the maximum lets you quickly see if the highest life expectancy
+      is not the most recent, if the specified points are not at the end.
+      Additionally, linking the arrows to the continent median, rather than the
+      overall median, makes for a more even comparison. Except, perhaps, for
+      oceania.
+    </p>
+    <img src="images/gapminder.png"
+    alt="A visualization of gapminder life expectancy data."
+    style="width: 100%;">
   </body>
   <footer>
     <ul>
